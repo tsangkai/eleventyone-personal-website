@@ -1,0 +1,51 @@
+{
+    "articles": [
+        {
+            "authors": [
+                "T.-K. Chang", "A. Mehta"],
+            "title": "Optimal scheduling for resource-constrained multirobot cooperative localization",
+            "journal": "IEEE Robotics and Automation Letters",
+            "url": "https://ieeexplore.ieee.org/abstract/document/8279382",
+            "vol": 3,
+            "no": 3,
+            "year": 2018
+        },
+        {
+            "authors": [
+                "T.-K. Chang", "A. Mehta"],
+            "title": "Control-theoretical and topological analysis of covariance intersection based distributed Kalman filter",
+            "journal": "IEEE Control Systems Letters",
+            "url": "https://ieeexplore.ieee.org/abstract/document/8374970",
+            "vol": 2,
+            "no": 4,
+            "year": 2018
+        }
+    ],
+    
+    "proceedings": [
+        {
+            "authors": [
+                "C. Fan", "T.-K. Chang", "A. Mehta"],
+            "title": "Kullback-Leibler average of von Mises distributions in multi-agent systems",
+            "journal": "IEEE Conference on Decision and Control (CDC)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9303876",
+            "year": 2020
+        },
+        {
+            "authors": [
+                "T.-K. Chang", "S. Chen", "A. Mehta"],
+            "title": "Multirobot cooperative localization algorithm with explicit communication and its topology analysis",
+            "journal": "International Symposium on Robotics Research (ISRR)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-28619-4_46",
+            "year": 2017
+        },
+        {
+            "authors": [
+                "T.-K. Chang", "K.-C. Chen", "L. Zheng"],
+            "title": "Time dynamics of random access in cognitive radio networks",
+            "journal": "IEEE International Conference on Communications (ICC)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/6883538",
+            "year": 2014
+        }
+    ]
+}
