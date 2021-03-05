@@ -191,12 +191,23 @@ footer {
 
   a:link,
   a:visited {
-    color: mix($text-color, $accent-color, 90%);
+    color: mix($text-color, $accent-color, 50%);
     border-bottom: solid 1px mix($accent-color, $page-color, 70%);
   }
   a:hover,
   a:focus {
     color: $text-color;
-    border-bottom: solid 1px $text-color;
+    border-bottom: solid 1px mix($accent-color, $page-color, 70%);
   }
+}
+
+
+.media {
+  li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 25px;
+  }
+
 }
