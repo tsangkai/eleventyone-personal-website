@@ -1,8 +1,12 @@
 ---
 title: Tsang-Kai Chang
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+subtitle: 
 layout: layouts/base.njk
 ---
+
+I am a PhD candidate at the Department of Electrical and Computer Engineering, UCLA.
+
+My primary research topic focuses on the spatial autonomy of robots.
 
 ## News
 
@@ -15,17 +19,4 @@ layout: layouts/base.njk
     {% endfor -%}
 </ul>
 
-
-## Post pages
-
-The pages found in in the posts
-
-<ul class="listing">
-{%- for page in collections.post -%}
-  <li>
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay() }}</time> - 
-    <a href="{{ page.url }}">{{ page.data.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
 

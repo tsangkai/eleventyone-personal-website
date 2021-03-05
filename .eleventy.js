@@ -5,7 +5,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function(config) {
 
   // A useful way to reference the context we are runing eleventy in
-  let env = process.env.ELEVENTY_ENV;
+  // let env = process.env.ELEVENTY_ENV;
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/base.njk');
@@ -38,7 +38,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/images");
 
   // make the seed target act like prod
-  env = (env=="seed") ? "prod" : env;
+  // env = (env=="seed") ? "prod" : env;
   return {
     dir: {
       input: "src/site",

@@ -1,12 +1,12 @@
 ---
 title: publication
 layout: layouts/base.njk
-subtitle: Clone and deploy your own EleventyOne starter template.
+subtitle:
 ---
 
 
 
-### Journal Papers
+## Journal Papers
 
 <ul class="listing">
     {% for paper in publication.articles -%}
@@ -31,7 +31,7 @@ subtitle: Clone and deploy your own EleventyOne starter template.
 </ul>
 
 
-### Conference Proceedings
+## Conference Proceedings
 
 <ul class="listing">
     {% for paper in publication.proceedings -%}
