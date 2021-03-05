@@ -189,15 +189,16 @@ footer {
   font-size: 0.7em;
   color: mix($text-color, $accent-color, 50%);
 
+
   a:link,
   a:visited {
-    color: mix($text-color, $accent-color, 50%);
+    color: mix($text-color, $accent-color, 90%);
     border-bottom: solid 1px mix($accent-color, $page-color, 70%);
   }
   a:hover,
   a:focus {
     color: $text-color;
-    border-bottom: solid 1px mix($accent-color, $page-color, 70%);
+    border-bottom: solid 1px $text-color;
   }
 }
 
@@ -210,4 +211,14 @@ footer {
     font-size: 25px;
   }
 
+  a:link,
+  a:visited {
+    color: mix($text-color, $accent-color, 50%);
+    border-bottom: solid 1px mix($accent-color, $page-color, 70%);
+  }
+  a:hover,
+  a:focus {
+    color: $text-color;
+    border-bottom: solid 1px mix($accent-color, $page-color, 70%);
+  }
 }
