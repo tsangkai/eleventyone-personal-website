@@ -7,8 +7,8 @@
 // {{ date | friendlyDate('OPTIONAL FORMAT STRING') }}
 // List of supported tokens: https://moment.github.io/luxon/docs/manual/formatting.html#table-of-tokens
 
-module.exports = (dateObj, format = "yyyy-MM-dd") => {
-  return DateTime.fromJSDate(dateObj, {
+module.exports = (dateStr, format = "yyyy-MM-dd") => {
+  return DateTime.fromISO(dateStr, {
       zone: "utc"
     }).toFormat(format);
 };
