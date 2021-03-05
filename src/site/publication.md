@@ -1,12 +1,10 @@
 ---
-title: project
+title: publication
 layout: layouts/base.njk
 subtitle: Clone and deploy your own EleventyOne starter template.
 ---
 
-## Simultaneous Localization and Mapping
 
-## Multiagent Systems
 
 ### Journal Papers
 
