@@ -1,0 +1,19 @@
+{
+  "title": "Title of the website. Update me.",
+  "url": "https://tsangkaichang.me",
+  "domain": "tsangkaichang.me",
+  "description": "Description of the website. Update me.",
+  "genre": "Insert a schema.org genre",
+  "googleAnalyticsId": "G-YKME4D029W",
+  "sendWebVitals": false,
+  "feed": {
+    "subtitle": "Subtitle. Update me.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://update-me.com"
+  },
+  "author": {
+    "name": "Tsang-Kai Chang",
+    "twitterHandle": "update_me"
+  }
+}

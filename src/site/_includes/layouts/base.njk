@@ -14,13 +14,13 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKME4D029W"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.googleAnalyticsId }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-YKME4D029W');
+      gtag('config', '{{ metadata.googleAnalyticsId }}');
     </script>
 
     <title>{{ title }}</title>
