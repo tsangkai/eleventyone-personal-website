@@ -25,7 +25,7 @@ subtitle:
         <i>{{ paper.journal }}</i>, 
         vol. {{paper.vol}},
         no. {{paper.no}},
-        {{paper.year}}.
+        {{ paper.date | dateFormat() | dateDisplay('MMM yyyy')}}.
     </li>
     {% endfor -%}
 </ul>
@@ -48,7 +48,7 @@ subtitle:
         {% endfor -%}
         "<a href="{{ paper.url | safe}}" target="_blank" rel="noopener">{{ paper.title }}</a>", 
         <i>{{ paper.journal }}</i>, 
-        {{paper.year}}.
+        {{ paper.date | dateFormat() | dateDisplay('MMM yyyy')}}.
     </li>
     {% endfor -%}
 </ul>

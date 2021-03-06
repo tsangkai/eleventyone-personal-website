@@ -13,7 +13,7 @@ My primary research topic focuses on the spatial autonomy of robots.
 <ul class="listing">
     {% for piece in news -%}
     <li>
-        <time datetime="{{ piece.date }}">{{ piece.date  | dateFormat() }} </time>
+        {{ piece.date  | dateFormat() | dateDisplay() }} 
          - {{ piece.event | safe }}
     </li>
     {% endfor -%}
