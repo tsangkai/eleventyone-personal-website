@@ -21,11 +21,12 @@ subtitle:
                 {{ name }},
             {% endif -%}
         {% endfor -%}
-        "<a href="{{ paper.url | safe}}" target="_blank" rel="noopener">{{ paper.title }}</a>", 
+        "{{ paper.title }}", 
         <i>{{ paper.journal }}</i>, 
         vol. {{paper.vol}},
         no. {{paper.no}},
         {{ paper.date | dateFormat() | dateDisplay('MMM yyyy')}}.
+        [<a href="{{ paper.url | safe}}" target="_blank" rel="noopener">link</a>]
     </li>
     {% endfor -%}
 </ul>
@@ -46,9 +47,10 @@ subtitle:
                 {{ name }},
             {% endif -%}
         {% endfor -%}
-        "<a href="{{ paper.url | safe}}" target="_blank" rel="noopener">{{ paper.title }}</a>", 
+        "{{ paper.title }}", 
         <i>{{ paper.journal }}</i>, 
         {{ paper.date | dateFormat() | dateDisplay('MMM yyyy')}}.
+        [<a href="{{ paper.url | safe}}" target="_blank" rel="noopener">link</a>]
     </li>
     {% endfor -%}
 </ul>
