@@ -4,11 +4,14 @@ subtitle:
 layout: layouts/base.njk
 ---
 
+
+  <img src="images/face.jpg" alt=""> 
+
 I am a PhD candidate at the Department of Electrical and Computer Engineering, UCLA.
 
 My primary research topic focuses on the spatial autonomy of robots.
 
-## News
+## news
 
 <ul class="listing">
     {% for piece in news -%}
@@ -20,3 +23,6 @@ My primary research topic focuses on the spatial autonomy of robots.
 </ul>
 
 
+## contact me
+
+tsangkaichang [at] ucla [dot] edu

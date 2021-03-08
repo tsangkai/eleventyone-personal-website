@@ -47,6 +47,8 @@ body {
   @media (min-width: $wide) {
     width: 700px;
   };
+
+
 }
 
 
@@ -221,4 +223,12 @@ footer {
     color: $text-color;
     border-bottom: solid 1px mix($accent-color, $page-color, 70%);
   }
+}
+
+img {
+  width: auto;
+  max-width: 95%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
