@@ -1,12 +1,12 @@
 ---
-title: publication
+title: publications
 layout: layouts/base.njk
 subtitle:
 ---
 
 
 
-## Journal Papers
+## journal papers
 
 <ul class="listing">
     {% for paper in publication.articles -%}
@@ -32,7 +32,7 @@ subtitle:
 </ul>
 
 
-## Conference Proceedings
+## conference proceedings
 
 <ul class="listing">
     {% for paper in publication.proceedings -%}
