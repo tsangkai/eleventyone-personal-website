@@ -4,8 +4,10 @@ subtitle:
 layout: layouts/base.njk
 ---
 
+<div class="image-cropper">
+  <img src="images/profile-pic.png" alt="avatar" class="profile-pic">
+</div>
 
-  <img src="images/face.jpg" alt=""> 
 
 I am a PhD candidate at the Department of Electrical and Computer Engineering, UCLA.
 
