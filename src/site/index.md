@@ -29,7 +29,7 @@ My primary research topic focuses on the computational spatial autonomy of auton
 <ul class="listing">
     {% for piece in news.slice(0,6) -%}
     <li>
-        {{ piece.date  | dateFormat() | dateDisplay() }} 
+        [{{ piece.date  | dateFormat() | dateDisplay() }}] 
           {{ piece.event | safe }}
     </li>
     {% endfor -%}
