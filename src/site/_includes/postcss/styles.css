@@ -248,18 +248,25 @@ footer {
 
 ul.feature-icons {
   list-style: none;
+  list-style-position: inside;
   padding-left: 0;
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
-  list-style-position: inside;
+
+  @media (max-width: $wide) {
+  -webkit-columns: 1;
+  -moz-columns: 1;
+  columns: 1;
+  };
+
 }
 
 ul.feature-icons li {
   text-decoration: none;
   display: inline-block;
-  margin: 0 0 1.6875em 0;
-  padding: 0.9em 0 0em 3.5em;
+  margin: 1em 0 1em 0;
+  padding: 0.8em 0 0em 3.5em;
   position: relative;
   width: 80%;
   font-family: sans-serif;
@@ -279,12 +286,10 @@ ul.feature-icons li:before {
 
 
 ul.feature-icons li:before {
-  /* background: $dark-color; */
 
   color: $text-color;
   border: solid;
   border-radius: 100%;
-  /* border-color: $dark-color; */
   border-width: thin;
 
   display: block;

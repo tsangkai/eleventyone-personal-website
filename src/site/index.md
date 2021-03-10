@@ -17,9 +17,9 @@ I am a PhD candidate in the Department of Electrical and Computer Engineering, U
 My primary research topic focuses on the computational spatial autonomy of autonomous agents, especially robots.
 
 <ul class="feature-icons">
-    <li class="fas fa-cog">SLAM</li>
-    <li class="fas fa-comments">reinforcement learning</li>
-    <li class="fas fa-map">navigation</li>    
+    <li class="far fa-eye">SLAM</li>
+    <li class="far fa-comments">reinforcement learning</li>
+    <li class="far fa-map">navigation</li>    
     <li class="fas fa-kiwi-bird">localization in brains</li>
     <li class="fas fa-users">multirobot/multiagent systems</li>
 </ul>
