@@ -9,7 +9,7 @@ layout: layouts/base.njk
 </div>
 
 
-I am a PhD candidate at the Department of Electrical and Computer Engineering, UCLA.
+I am a PhD candidate in the Department of Electrical and Computer Engineering, UCLA.
 
 
 ## research interests
