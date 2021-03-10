@@ -225,7 +225,7 @@ footer {
   }
 }
 
-
+/* added */
 
 .image-cropper {
   width: 200px;
@@ -243,3 +243,57 @@ footer {
   width: auto;
   border-radius: 50%;
 }
+
+
+
+ul.feature-icons {
+  list-style: none;
+  padding-left: 0;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
+}
+
+ul.feature-icons li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0 1.6875em 0;
+  padding: 0.6em 0 0.3em 3.5em;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+ul.feature-icons li:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;  /* slightly larger */
+  text-transform: none !important;
+}
+
+
+ul.feature-icons li:before {
+  /* background: $dark-color; */
+
+  color: $text-color;
+  border: solid;
+  border-radius: 100%;
+  /* border-color: $dark-color; */
+  border-width: thin;
+
+  display: block;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.5em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+

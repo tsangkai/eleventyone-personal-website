@@ -11,15 +11,26 @@ layout: layouts/base.njk
 
 I am a PhD candidate at the Department of Electrical and Computer Engineering, UCLA.
 
-My primary research topic focuses on the spatial autonomy of robots.
+
+## research interests
+
+My primary research topic focuses on the computational spatial autonomy of autonomous agents, especially robots.
+
+<ul class="feature-icons">
+    <li class="fas fa-cog">SLAM</li>
+    <li class="fas fa-comments">reinforcement learning</li>
+    <li class="fas fa-map">navigation</li>    
+    <li class="fas fa-kiwi-bird">localization in brains</li>
+    <li class="fas fa-users">multirobot/multiagent systems</li>
+</ul>
 
 ## news
 
 <ul class="listing">
-    {% for piece in news -%}
+    {% for piece in news.slice(0,6) -%}
     <li>
         {{ piece.date  | dateFormat() | dateDisplay() }} 
-         - {{ piece.event | safe }}
+          {{ piece.event | safe }}
     </li>
     {% endfor -%}
 </ul>
