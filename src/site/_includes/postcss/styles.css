@@ -289,7 +289,7 @@ ul.feature-icons li:before {
 
   color: $text-color;
   border: solid;
-  border-radius: 100%;
+  border-radius: 95%;
   border-width: thin;
 
   display: block;
