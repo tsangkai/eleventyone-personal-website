@@ -280,7 +280,7 @@ ul.feature-icons li:before {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1rem;  /* slightly larger */
+  font-size: 1.05rem;  /* slightly larger */
   text-transform: none !important;
 }
 
