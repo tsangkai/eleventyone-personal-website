@@ -43,8 +43,6 @@ body {
   @media (min-width: $wide) {
     width: 700px;
   };
-
-
 }
 
 
@@ -111,7 +109,7 @@ a:focus {
   padding-top: 3em;
   margin-top: 0em;
   margin-bottom: 0em;
-  
+
   li {
     display: inline;
   }
@@ -230,10 +228,14 @@ footer {
 .image-cropper {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
   position: relative;
   overflow: hidden;
-  margin-left: 10%;
-  padding: 1em 0 1em 0em;
+  float: right;
+  shape-outside: circle(50%);
+  shape-margin: 5rem;
+  /* margin-left: 10%; */
+  margin-top: 2rem;
 }
 
 .profile-pic {
@@ -241,7 +243,6 @@ footer {
   margin: 0 auto;
   height: 100%;
   width: auto;
-  border-radius: 50%;
 }
 
 
@@ -255,9 +256,9 @@ ul.feature-icons {
   columns: 2;
 
   @media (max-width: $wide) {
-  -webkit-columns: 1;
-  -moz-columns: 1;
-  columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
   };
 
 }
