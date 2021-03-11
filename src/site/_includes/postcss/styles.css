@@ -25,14 +25,14 @@ body {
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem; /*16px;*/
   line-height: 1.8;
   min-height: 100vh;
   background:  $page-color;
   background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 0%, $accent-color 100%);
 
   @media (min-width: $narrow) {
-    font-size: 16px;  /* 18em; */
+    font-size: 1rem; /*16px;*/  /* 18em; */
   };
 }
 
@@ -271,7 +271,7 @@ ul.feature-icons li {
   width: 80%;
   font-family: sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 ul.feature-icons li:before {
@@ -280,13 +280,12 @@ ul.feature-icons li:before {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;  /* slightly larger */
+  font-size: 1.1rem;  /* slightly larger */
   text-transform: none !important;
 }
 
 
 ul.feature-icons li:before {
-
   color: $text-color;
   border: solid;
   border-radius: 95%;
