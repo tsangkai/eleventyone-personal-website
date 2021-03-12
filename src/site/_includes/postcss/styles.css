@@ -234,12 +234,12 @@ footer {
   float: right;
   shape-outside: circle(50%);
   shape-margin: 6rem;
-  /* margin-left: 10%; */
   margin-top: 2rem;
   
   @media (max-width: $wide) {
     width: 160px;
     height: 160px;
+    margin-top: 1rem;
   };
 }
 

@@ -28,7 +28,8 @@
       gtag('config', '{{ metadata.googleAnalyticsId }}');
     </script>
 
-    <title>{{ title }}</title>
+    <!-- <title>{{ title }}{% if title!=metadata.title %} | {{ metadata.title }}{% endif %}</title> -->
+    <title>{{ metadata.title }}</title>
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
