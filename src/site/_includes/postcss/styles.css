@@ -181,7 +181,7 @@ pre {
 
 footer {
   margin-top: 6em;
-  padding-top: 4em;
+  /* padding-top: 4em; */
   padding-bottom: 6em;
   border-top-width: 1px;
   border-top-style: solid;
@@ -200,6 +200,10 @@ footer {
     color: $text-color;
     border-bottom: solid 1px $text-color;
   }
+  p {
+    padding-left: 1em;
+  }
+
 }
 
 
