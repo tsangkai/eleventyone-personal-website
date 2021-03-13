@@ -230,20 +230,20 @@ footer {
 /* added */
 
 .image-cropper {
-  width: 180px; /* 200px */
-  height: 180px;
+  width: 190px; /* 200px */
+  height: 190px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   float: right;
   shape-outside: circle(50%);
-  shape-margin: 6rem;
-  margin-top: 2rem;
+  margin: 15px;
+
   
   @media (max-width: $wide) {
     width: 150px;
     height: 150px;
-    margin-top: 1rem;
+    margin: 10px;
   };
 }
 
