@@ -230,8 +230,8 @@ footer {
 /* added */
 
 .image-cropper {
-  width: 200px;
-  height: 200px;
+  width: 180px; /* 200px */
+  height: 180px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
@@ -241,13 +241,13 @@ footer {
   margin-top: 2rem;
   
   @media (max-width: $wide) {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     margin-top: 1rem;
   };
 }
 
-.profile-pic {
+.highlight-pic {
   display: block;
   margin: 0 auto;
   height: 100%;
