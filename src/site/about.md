@@ -1,6 +1,6 @@
 ---
 title: about
-subtitle: I am supposed to talk about myself here.
+subtitle:
 layout: layouts/base.njk
 ---
 
