@@ -4,9 +4,11 @@ $mid: 740px;
 $wide: 1200px;
 
 /* colours */
-$page-color: #025955;
-$text-color: #fde8cd;
-$accent-color: #00917c;
-$dark-color: #433520;
+$text-color: #2f4858;
+$dark-color: #468d83;
+$accent-color: #c68226;
+$page-color: #f1f1e6;
+
+$darkest-color: #193441;
 
 /* color palettes from Color Hunt */
