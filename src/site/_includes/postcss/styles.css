@@ -95,7 +95,7 @@ a:visited {
 a:hover,
 a:focus {
   color: $text-color;
-  border-bottom-color: $text-color;
+  border-bottom-color: $accent-color;
 }
 
 .nakedLink a:link,
@@ -119,21 +119,22 @@ a:focus {
     display: inline-block;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: $accent-color;
+    border-top-color: $text-color;
     border-bottom-style: none;
     padding-top: 0.8em;
+    padding-left: 0.8em;
     padding-bottom: 2em;
     margin-left: 0;
     margin-right: 0.7em;
-    width: 8em; /* 9em; */
+    width: 7em; /* 9em; */
     text-align: left;
-    color: $accent-color;
+    color: $text-color;
     text-decoration: none;
   }
   a:hover,
   a:focus {
-      color: $text-color;
-      border-top-color: $text-color;
+      color: $accent-color;
+      border-top-color: $accent-color;
       border-bottom-style: none;
   }
 
