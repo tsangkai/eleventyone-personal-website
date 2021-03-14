@@ -1,7 +1,7 @@
 ---
 title: projects
-layout: layouts/base.njk
 subtitle: 
+layout: layouts/base.njk
 ---
 
 ## computational spatial autonomy and SLAM

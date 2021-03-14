@@ -1,7 +1,7 @@
 ---
 title: publications
-layout: layouts/base.njk
 subtitle:
+layout: layouts/base.njk
 ---
 
 
