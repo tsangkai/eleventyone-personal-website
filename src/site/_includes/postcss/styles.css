@@ -49,13 +49,13 @@ h1, h2, h3 {
   color: $text-color;
   font-weight: 700;
   font-family: 'PT Serif';
-  margin-top: 2em;
+  padding-top: 1em;
   margin-bottom: 0.2em;
   line-height: 1;
 }
 h1 {
   font-size: 3em;
-  margin-top: 0.4em;
+  padding-top: 0.4em;
   margin-bottom: 0.5em;
   line-height: 1;
 
@@ -68,19 +68,19 @@ h1 {
 }
 
 
-
-
 p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding-top: $content-padding-top;
+  margin-bottom: $content-margin-bottom;
 }
 
 
 ul, ol {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding-left: 1em;
+  list-style-position: inside;  
+  padding-top: $content-padding-top;
+  padding-left: 0.5rem;
+  margin-bottom: $content-margin-bottom;
 }
+
 
 a:link,
 a:visited {
@@ -99,25 +99,25 @@ a:focus {
 
 
 .nav {
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 
   li {
-    display: inline;
+    display: inline-block;
   }
 
   a:link,
   a:visited {
+    font-family: 'PT Serif';
+    font-weight: 500;
     display: inline-block;
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: $text-color;
     border-bottom-style: none;
-    padding-top: 0.8em;
-    padding-left: 0.8em;
-    padding-bottom: 2em;
     margin-left: 0;
     margin-right: 0.7em;
+    padding: $header-footer-padding;
     width: 7em; /* 9em; */
     text-align: left;
     color: $text-color;
@@ -129,12 +129,6 @@ a:focus {
       border-top-color: $accent-color;
       border-bottom-style: none;
   }
-
-  small {
-    display: block;
-    font-size: 0.7em;
-    color: mix($text-color,$page-color, 60%);
-  }
 }
 
 
@@ -145,21 +139,21 @@ footer {
   padding-bottom: 6em;
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: mix($text-color, $page-color, 80%);
+  border-top-color: $text-color;
   font-weight: 500;
   font-size: 0.8em;
   color: mix($text-color, $page-color, 80%);
 
   p {
-    padding-left: 1em;
+    padding: 0 $header-footer-padding;
+    margin: 0;
   }
-
 }
 
 .media {
   li {
     list-style: none;
-    margin: 10px 10px;
+    padding: 10px $header-footer-padding 0px;
     display: inline-block;
     font-size: 25px;
   }
