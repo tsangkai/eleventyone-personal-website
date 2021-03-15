@@ -17,6 +17,7 @@
 
 html {
   background-color: $page-color;
+  font-size: 15px;
 }
 
 body {
