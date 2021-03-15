@@ -99,6 +99,7 @@ a:focus {
 
 
 .nav {
+  margin-top: 2rem; /* this will affect the about button alignment */
   padding-top: 3rem;
   padding-bottom: 2rem;
 
