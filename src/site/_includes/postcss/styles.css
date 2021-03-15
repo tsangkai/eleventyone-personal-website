@@ -77,7 +77,7 @@ p {
 ul, ol {
   list-style-position: inside;  
   padding-top: $content-padding-top;
-  padding-left: 0.5rem;
+  padding-left: 0.1rem;
   margin-bottom: $content-margin-bottom;
 }
 
