@@ -103,6 +103,7 @@ a:focus {
   margin-top: 2rem; /* this will affect the about button alignment */
   padding-top: 3rem;
   padding-bottom: 2rem;
+  letter-spacing: 0.5px;
 
   li {
     display: inline-block;
@@ -175,8 +176,8 @@ footer {
 /* added */
 
 .image-cropper {
-  width: 190px; /* 200px */
-  height: 190px;
+  width: 180px; /* 200px */
+  height: 180px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
