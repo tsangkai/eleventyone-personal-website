@@ -101,8 +101,8 @@ a:focus {
 
 .nav {
   margin-top: 2rem; /* this will affect the about button alignment */
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   letter-spacing: 0.5px;
 
   li {
@@ -121,6 +121,7 @@ a:focus {
     margin-left: 0;
     margin-right: 0.7em;
     padding: $header-footer-padding;
+    padding-bottom: 2rem;
     width: 7em; /* 9em; */
     text-align: left;
     color: $text-color;
