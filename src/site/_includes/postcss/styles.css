@@ -59,12 +59,14 @@ h1 {
   padding-top: 0.4em;
   margin-bottom: 0.5em;
 
+  /***
   @media (min-width: $mid) {
     font-size: 4em;
   };
   @media (min-width: $wide) {
     font-size: 4.4em;
   };
+  ***/
 }
 
 
