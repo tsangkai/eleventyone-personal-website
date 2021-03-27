@@ -4,6 +4,8 @@ subtitle:
 layout: layouts/base.njk
 ---
 
-Hello!
+Hello! I come from Taiwan.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Currently, I am pursuing my PhD degree at UCLA. I focus on fundamental, theoretical and algorithmic questions. By identifying and tackling these question, I come up with engineering solutions for realistic application.
+
+Hopefully, I will graduate soon.

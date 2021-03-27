@@ -15,8 +15,10 @@ Here is my cv.
 
 ## research interests
 
-My primary research topic focuses on the computational spatial autonomy of autonomous agents, especially robots.
+My research focuses on SLAM, multiagent systems, directional statistics and reinforcement learning.
 
+
+<!--
 <ul class="feature-icons">
     <li class="far fa-eye">SLAM</li>
     <li class="far fa-comments">reinforcement learning</li>
@@ -24,6 +26,7 @@ My primary research topic focuses on the computational spatial autonomy of auton
     <li class="fas fa-kiwi-bird">localization in brains</li>
     <li class="fas fa-users">multirobot/multiagent systems</li>
 </ul>
+-->
 
 ## news
 

@@ -6,22 +6,19 @@ layout: layouts/base.njk
 
 ## computational spatial autonomy and SLAM
 
-Robots rely on the spatial autonomy to establish the spatial awareness, and then they can perform various high-level tasks with the spatial awareness. This problem is partially coined as the simultaneous localization and mapping (SLAM) in robotics, and has been actively studied for several decades. To address this problem, I propose a super efficient SLAM algorithm based on block online EM (BOEM) algorithm to improve the SLAM efficiency.
+Robots have to establish the spatial awareness autonomously, and then they can perform various amazing tasks. Therefore, the spatial autonomy is crucial to all robotic applications. This problem is usally coined as the simultaneous localization and mapping (SLAM) in robotics, and has been actively studied for several decades. Most of the SLAM solutions rely on optimization-based approaches, which result in the offline nature. I take advantage of the intrisic hidden Markov model in SLAM problems, and design an online SLAM algorithm. As a result, the proposed algorithm is very efficient compared to the common approaches.
 
 
-## robots vs animals
+## artificial agents vs biological agents
 
-The principles of spatial autonomy must be applicable for both artificial and biological agents. Therefore, the discovery in neuroscience may be insightful for understanding and designing robots. For example, I apply the circular representation of grid cells in brains to avoid the linearization inconsistency problem in traditional Kalman filter-based methods. As this initial work suggests, there are more opportunity for intergrating robotics and neuroscience, and I am working towards this direction to understand the spatial autonomy more thoroughly.
-
-
-
-## reinforcement learning and navigation
-
-Traditionally, navigation is often considered as a planning problem on top of the localization and the mapping in robotic research. The introduction of deep neural network revolutionizes this view. In particular, without any prior knowledge, a robot is able to navigate the environment with the deep reinforcement learning algorithm. However, it often takes several rounds for the robot to learn such capability, which is not preferable in real scenarios. I am interested in combining the traditional robotic approaches and the deep reinforcement learning techniques to build an efficient navigation methods for autonomous robots.
+I am interested in spatial autonomy principles underlying both artificial and biological agents. Even though I normally approach the robotic autonomy from an engineering perspective, the discovery in neuroscience may be also insightful for understanding and designing robots. For example, mammals track a 2D position with only circular representation. I expect to explore the connection among all autonomous agents.
 
 
+## multiagent systems
+
+By cooperation, multiple agents provide more flexibility and robustness over a single agent. However, the information management in a multiagetn system is essential but challenging. Following this concept, I stuty the cooperative localization in multirobot systems. Our algorithm is the first one that has separate communication step and observation step, which greatly improves the system resilience.
 
 
-## multirobot/multiagent systems
+## consensus as barycenter of distributions
 
-By cooperation, multiple robots provide more flexibility and robustness over a single robot. However, the information management among robots is of great importance to the success of the multirobot system. First of all, the communication of information should be optimized in terms of the estimation performance as well as the power consumption. Furthermore, the fusion of information is not trivial in distributed system. Unlike centralized systems, if robots are operated in a distributed way, the fusion of information becomes challenging due to the information availability. I investigate the information fusion scheme without the explicit correlation, and apply it on the multirobot localization.
+Barycenter is an elegant concept to denote the weighted average. By using the KL divergence as the distance measure, we can find the barycenter as the consensus of several probability distributions. The KL barycenter has several interesting properties; for example, the KL barycenter can be considered as an conservative fusion result. I study the KL barycenter of von Mises-Fisher distributions, which are extensively used in directional data. I show that the KL barycenter is nothing but vector addition in the Euclidean space.
