@@ -2,6 +2,16 @@
     "articles": [
         {
             "authors": [
+                "T.-K. Chang", "K. Chen", "A. Mehta"],
+            "title": "Resilient and consistent multirobot cooperative localization with covariance intersection",
+            "journal": "IEEE Transactions on Robotics",
+            "url": "https://ieeexplore.ieee.org/abstract/document/8279382",
+            "vol": 0,
+            "no": 0,
+            "date": "2021-12"
+        },
+        {
+            "authors": [
                 "T.-K. Chang", "A. Mehta"],
             "title": "Optimal scheduling for resource-constrained multirobot cooperative localization",
             "journal": "IEEE Robotics and Automation Letters",
