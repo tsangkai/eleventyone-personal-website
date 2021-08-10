@@ -5,7 +5,7 @@ layout: layouts/base.njk
 ---
 
 <div class="image-cropper">
-    <img src="/images/profile-pic.png" alt="my profile picture" class="profile-pic">
+    <img src="/images/profile-pic.jpeg" alt="my profile picture" class="profile-pic">
 </div>
 
 
